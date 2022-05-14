@@ -6,7 +6,7 @@ export const defaultFragment = graphql`
     flexibleContent {
       contentModule {
         ...Form
-        # ...Hero
+        ...Hero
         # ...LatestArticles
       }
     }

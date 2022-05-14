@@ -16,7 +16,6 @@ module.exports = {
         },
         fontFamily: {
           sans: ["Lato", "sans-serif"],
-          headingStyled: ["TriodPostnaja", "serif"],
           heading: ["Roboto", "sans-serif"],
         },
         colors: {
@@ -39,7 +38,6 @@ module.exports = {
         },
       },
       fontFamily: {
-        triodPostnaja: ["TriodPostnaja"],
         roboto: ["Roboto"],
         lato: ["Lato"],
         inter: ["Inter"],
