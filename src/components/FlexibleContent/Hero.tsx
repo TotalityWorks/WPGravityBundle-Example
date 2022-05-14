@@ -32,7 +32,7 @@ const Hero: React.FC<HeroProps> = props => {
       <Edges size="lg">
         <div className="relative bg-white-50 overflow-hidden">
           <div className="relative pt-6 pb-16 sm:pb-24">
-            <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 flex justify-between">
+            <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 flex justify-between items-center">
               <div className="mx-[10px]">
                 <h1 className="text-4xl tracking-tight font-extrabold font-heading text-gray-900 sm:text-5xl md:text-6xl">
                   {heroTitle && <span className="block">{heroTitle}</span>}
