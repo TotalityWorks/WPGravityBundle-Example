@@ -157,8 +157,8 @@ const FormContainer = styled.div`
 
       input,
       textarea {
-        width: 30%;
-        margin: 0 0.5rem;
+        width: 31%;
+        margin: 0.5rem 0.5rem;
       }
     }
 
@@ -168,8 +168,8 @@ const FormContainer = styled.div`
 
       input,
       textarea {
-        width: 45%;
-        margin: 0 1rem;
+        width: 47%;
+        margin: 0.5rem 0.5rem;
       }
     }
 

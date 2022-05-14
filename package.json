@@ -7,6 +7,7 @@
   "dependencies": {
     "@apollo/client": "^3.6.2",
     "@emotion/styled": "^11.8.1",
+    "@tailwindcss/typography": "^0.5.2",
     "gatsby": "^4.14.0",
     "gatsby-plugin-gatsby-cloud": "^4.14.0",
     "gatsby-plugin-image": "^2.14.1",
@@ -23,6 +24,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
+    "tailwindcss": "^3.0.24",
     "wpgravitybundle": "^0.18.2"
   },
   "devDependencies": {
