@@ -69,7 +69,6 @@ export const fragment = graphql`
 
 const FormContainer = styled.div`
   position: relative;
-  margin: 0 auto;
   margin-top: 2rem;
   border-top-width: 0px;
   border-bottom-width: 0px;
@@ -158,8 +157,9 @@ const FormContainer = styled.div`
 
       input,
       textarea {
-        width: 31%;
-        margin: 0.5rem 0.5rem;
+        width: 31.6%;
+        margin: 0.5rem;
+        margin-left: 0;
       }
     }
 
@@ -169,8 +169,9 @@ const FormContainer = styled.div`
 
       input,
       textarea {
-        width: 47%;
-        margin: 0.5rem 0.5rem;
+        width: 48.2%;
+        margin: 0.5rem;
+        margin-left: 0;
       }
     }
 
