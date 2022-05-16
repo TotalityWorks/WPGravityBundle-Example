@@ -2,6 +2,7 @@ import * as React from "react"
 
 import Seo from "../seo"
 import Header from "./Header"
+import Footer from "./Footer"
 import "../../styles/index.css"
 
 interface LayoutProps {
@@ -20,6 +21,7 @@ const Layout: React.FC<LayoutProps> = ({
       <Seo title={title} />
       <Header />
       {children}
+      <Footer />
     </>
   )
 }
