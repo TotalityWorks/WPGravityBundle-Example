@@ -6,8 +6,8 @@ export default function Header() {
   return (
     <>
       <Headroom>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6">
-          <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
+      <div className="bg-gray-100 max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="flex justify-between items-center border-b-2 border-gray-600 py-6 md:justify-start md:space-x-10">
             <div className="flex justify-start items-center lg:w-0 lg:flex-1">
               <Link
                 to="/"
@@ -24,6 +24,13 @@ export default function Header() {
             </Link>
 
             <Link
+              to="/supported-fields"
+              className="text-base font-medium text-gray-500 hover:text-gray-900"
+            >
+              Supported Fields
+            </Link>
+
+            <Link
               to="/contribute"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
             >
@@ -34,8 +41,4 @@ export default function Header() {
       </Headroom>
     </>
   )
-}
-
-function classNames(...classes: any) {
-  return classes.filter(Boolean).join(" ")
 }

@@ -38,7 +38,7 @@ const Hero: React.FC<HeroProps> = props => {
                   {heroTitle && <span className="block">{heroTitle}</span>}
 
                   {heroSubtitle && (
-                    <span className="block text-indigo-600">
+                    <span className="block text-indigo-600 capitalize">
                       {heroSubtitle}
                     </span>
                   )}

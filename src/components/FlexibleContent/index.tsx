@@ -2,11 +2,13 @@ import React from "react"
 
 import Form, { FormProps } from "./Form"
 import Hero, { HeroProps } from "./Hero"
+import TextBlock, { TextBlockProps } from "./TextBlock"
 // import LatestArticles, { LatestArticlesProps } from "./LatestArticles"
 
 interface Components {
   Form: React.FC<FormProps>
   Hero: React.FC<HeroProps>
+  TextBlock: React.FC<TextBlockProps>
 //   LatestArticles: React.FC<LatestArticlesProps>
 }
 
@@ -22,6 +24,7 @@ interface Props {
 const components: Components = {
   Form,
   Hero,
+  TextBlock,
 //   LatestArticles,
 }
 

@@ -119,6 +119,7 @@ const FormContainer = styled.div`
 
   input,
   textarea,
+  select,
   fieldset > div > input {
     margin: 0.5rem 0;
     display: inline-block;

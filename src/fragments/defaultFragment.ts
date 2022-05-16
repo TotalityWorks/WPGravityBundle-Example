@@ -7,6 +7,7 @@ export const defaultFragment = graphql`
       contentModule {
         ...Form
         ...Hero
+        ...TextBlock
         # ...LatestArticles
       }
     }
