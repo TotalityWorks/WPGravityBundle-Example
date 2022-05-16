@@ -8,6 +8,7 @@ export const defaultFragment = graphql`
         ...Form
         ...Hero
         ...TextBlock
+        ...TextImage
         # ...LatestArticles
       }
     }
